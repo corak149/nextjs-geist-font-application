@@ -1,0 +1,14 @@
+{"level":"info","message":"Conexión a MongoDB establecida","timestamp":"2025-06-12T23:26:24.361Z"}
+{"level":"info","message":"Servidor iniciado en puerto 5000","timestamp":"2025-06-12T23:26:24.365Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-06-12T23:26:24.366Z"}
+{"level":"info","message":"Conexión a MongoDB establecida","timestamp":"2025-06-12T23:29:46.417Z"}
+{"level":"info","message":"Servidor iniciado en puerto 5000","timestamp":"2025-06-12T23:29:46.446Z"}
+{"level":"info","message":"Ambiente: development","timestamp":"2025-06-12T23:29:46.446Z"}
+{"level":"info","message":"Conexión a MongoDB establecida","timestamp":"2025-06-12T23:29:46.485Z"}
+{"level":"info","message":"Conexión a MongoDB establecida","timestamp":"2025-06-12T23:29:46.492Z"}
+{"level":"info","message":"Iniciando apagado graceful...","timestamp":"2025-06-12T23:30:02.857Z"}
+{"level":"info","message":"Iniciando apagado graceful...","timestamp":"2025-06-12T23:30:02.857Z"}
+{"level":"info","message":"Iniciando apagado graceful...","timestamp":"2025-06-12T23:30:02.860Z"}
+{"level":"info","message":"Iniciando apagado graceful...","timestamp":"2025-06-12T23:30:02.863Z"}
+{"level":"info","message":"Iniciando apagado graceful...","timestamp":"2025-06-12T23:30:02.864Z"}
+{"level":"info","message":"Iniciando apagado graceful...","timestamp":"2025-06-12T23:30:02.858Z"}
