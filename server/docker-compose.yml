@@ -1,6 +1,35 @@
 version: '3.8'
 
 services:
+  server:
+    build: .
+    container_name: rueda-verde-server
+    ports:
+      - "8000:8000"
+    environment:
+      # Server Configuration
+      - PORT=8000
+      - NODE_ENV=production
+      
+      # MongoDB Configuration
+      - MONGODB_URI=mongodb://admin:password123@mongodb:27017/ruedaverde?authSource=admin
+      
+      # Domain Configuration
+      - FRONTEND_URL=https://www.ruedaverde.org
+      - API_URL=https://api.ruedaverde.org
+      
+      # Squarespace Configuration
+      - SQUARESPACE_API_KEY=3ff9b8c3-9296-451f-8a78-f2940053c60b
+      - SQUARESPACE_WEBSITE_ID=your-squarespace-website-id  # You'll need to get this from your Squarespace dashboard
+      
+      # Google Cloud Configuration
+      - GOOGLE_CLOUD_PROJECT_ID=rueda-verde
+      - GOOGLE_CLOUD_CLIENT_EMAIL=your-service-account@rueda-verde.iam.gserviceaccount.com
+      - GOOGLE_CLOUD_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYour Private Key Here\n-----END PRIVATE KEY-----"
+      - GOOGLE_CLOUD_BUCKET_NAME=rueda-verde-storage
+    depends_on:
+      - mongodb
+
   mongodb:
     image: mongo:latest
     container_name: rueda-verde-mongodb
